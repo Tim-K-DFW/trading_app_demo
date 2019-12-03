@@ -1,0 +1,10 @@
+# **/
+**/build
+**/dist
+**/__pycache__
+# **/*.xlsx
+**/*.xlsm
+# **/*.csv
+**/.Rproj*
+!archive
+!archive/*/

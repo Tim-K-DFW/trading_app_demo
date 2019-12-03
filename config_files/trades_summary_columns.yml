@@ -1,0 +1,39 @@
+common:
+  from_master_file:
+    earnings suspended: active manual
+    strat conflict: final conflict incl. LL position
+    ticker: ticker
+    column_7: column 7
+  from_roster:
+    direction: direction_human
+    sector: book
+    strategy: strategy
+    ticker: ticker
+    todays price return: todays_price_return
+    position_current: actual_shares
+    position_target: target_shares
+    quantity: quantity
+    price: price
+    reversal: reversal
+strat_1:
+  computed:
+  - column_1
+  - column_2
+  - ...
+  display_order:
+  - column_1
+  - column_2
+  - ...
+  from_strat_file:
+    column_3: column 3
+    column_4: column 4
+    ...
+strat_2:
+  computed:
+  - column_5
+  - column_6
+  - ...
+  display_order:
+  - column_6
+  - column_5
+  - ...
