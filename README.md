@@ -20,7 +20,7 @@ For full disclosure, this was a side project for me, since my full-time job was 
 #### Design and code highlights
 
 - highly modular structure allowing easy and error-free addition and modification of strategies, user interface and processing rules, as well as subsequent seamless merge with the portfolio management app that we were building
-- minimal use of `for` loops, full vectorization of row-wise dataframe operations
+- minimal use of `for` loops, full vectorization of column-wise dataframe operations
 - exquisite use of `pandas`'s reshaping and multilevel indexing (`TradeSummaryWriter` class)
 - fully "plug-and-play" treatment of report columns (string literals). I.e. different strategies needed different information presented in report files (up to 10 different columns per strategy), and instead of hard-coding each set of column names, I factored them out to a `yaml` file, such that changes could be made without altering core code
 - was shipped as a single `exe` file which ran on any Windows machine
