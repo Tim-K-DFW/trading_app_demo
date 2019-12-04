@@ -9,6 +9,8 @@ All portfolios of this fund, with combined value in the nine digits, were traded
 
 For full disclosure, this was a side project for me, since my full-time job was on the investment side, in generation and evaluation of investment strategies. However, as the number of strategies and their scope increased, we had to automate most of the trading, hence this app.
 
+This app was built for in-house use as part of specific pipeline, and as such has no utility outside of its native stack. Now that the fund is shut down, I publish this sterilized version purely for coding demonstration purposes.
+
 #### Key features
 
 - text-based interface that allowed user to choose order type, strategy and ticker subsets and other parameters
